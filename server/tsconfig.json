@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "NodeNext",
+        "types": ["node"],
+        "target": "ES2017",                 // Version de JavaScript à cibler
+        "module": "NodeNext",           // Module système utilisé
+        "outDir": "./dist",             // Répertoire de sortie des fichiers compilés
+        "rootDir": "./",             // Répertoire racine des fichiers sources
+        "strict": true,                 // Activer le mode strict
+        "esModuleInterop": true,        // Permet une interopérabilité avec les modules ES
+        "forceConsistentCasingInFileNames": true, // Enforce la casse des noms de fichiers
+        "skipLibCheck": true            // Ignore la vérification des fichiers .d.ts
+    },
+    "include": ["src/**/*", "server.ts"],          // Inclure tous les fichiers TypeScript du dossier src
+    "exclude": ["node_modules"]       // Exclure le dossier node_modules
+
+}
